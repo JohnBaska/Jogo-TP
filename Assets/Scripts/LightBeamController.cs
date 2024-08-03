@@ -69,7 +69,11 @@ public class LightBeamController : MonoBehaviour
         Debug.Log(lineRenderer.positionCount);
         lineRenderer.positionCount += 1;
 
+<<<<<<< HEAD
         lineRenderer.SetPosition(lineRenderer.positionCount - 1, transform.position);
+=======
+        lineRenderer.SetPosition(lineRenderer.positionCount, transform.position);
+>>>>>>> 225ce006fb480ef3e171fbcea258dbb887642a27
 
         if (collision.gameObject.name == "Refletor_right_up")
         {
